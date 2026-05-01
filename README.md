@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header - fixed: no & in URL, use %26 encoding -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tejas%20Karambe&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20ERP%20Systems%20%7C%20.NET%20%26%20Next.js%20Engineer&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tejas%20Karambe&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&descAlignY=55&descSize=16" width="100%"/>
 
 <!-- Typing SVG -->
 <a href="https://github.com/TejasKarambe">

@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tejas%20Karambe&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Java%20Enthusiast%20%7C%20React%20Developer&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tejas%20Karambe&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20ERP%20Systems%20%7C%20.NET%20%26%20Next.js%20Engineer&descAlignY=55&descSize=16" width="100%"/>
 
 <!-- Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=500&lines=Hey+there!+I'm+Tejas+%F0%9F%91%8B;Java+%2B+React+Developer;Building+cool+web+apps+%F0%9F%9A%80;Always+learning%2C+always+growing+%F0%9F%8C%B1)](https://github.com/TejasKarambe)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Tejas+%F0%9F%91%8B;Full+Stack+%26+ERP+Developer;.NET+Core+%7C+Next.js+%7C+React;Building+Enterprise+Solutions+%F0%9F%9A%80;Java+%7C+C%23+%7C+JavaScript+Engineer)](https://github.com/TejasKarambe)
 
-<!-- Profile Views & Followers -->
+<!-- Badges -->
 <p>
   <img src="https://komarev.com/ghpvc/?username=TejasKarambe&label=Profile%20Views&color=6E40C9&style=flat-square" alt="profile views"/>
   &nbsp;
@@ -21,17 +21,22 @@
 
 ## 🙋‍♂️ About Me
 
-```java
-public class TejasKarambe {
+```csharp
+namespace GitHub.Profile
+{
+    public class TejasKarambe : FullStackDeveloper
+    {
+        public string Name     => "Tejas Karambe";
+        public string Location => "India 🇮🇳";
+        public string Focus    => "ERP Systems & Enterprise Web Applications";
 
-    String name     = "Tejas Karambe";
-    String location = "India 🇮🇳";
-    String[] langs  = {"JavaScript", "HTML", "CSS", "Java", "C#.net"};
-    String[] focus  = {"React.js", "Tailwind CSS", "Material UI};
-    String goal     = "Build awesome things & keep growing 🚀";
+        public string[] Backend   => new[] { "C# .NET Core", "RESTful APIs", "Java" };
+        public string[] Frontend  => new[] { "Next.js", "React.js", "Material UI", "Tailwind CSS" };
+        public string[] Databases => new[] { "MySQL", "PostgreSQL", "Microsoft SQL Server" };
+        public string[] Tools     => new[] { "Prisma ORM", "BetterAuth", "Git", "VS Code" };
 
-    String greet() {
-        return "Welcome to my GitHub! Feel free to fork, star & contribute! ⭐";
+        public string Passion => "Building scalable ERP systems & clean full-stack apps 🏗️";
+        public string Goal    => "Craft enterprise-grade software that actually works ⚡";
     }
 }
 ```
@@ -44,23 +49,68 @@ public class TejasKarambe {
 
 **Languages**
 
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Frameworks & Libraries**
+**Backend & Frameworks**
 
+![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![RESTful API](https://img.shields.io/badge/RESTful_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![BetterAuth](https://img.shields.io/badge/BetterAuth-000000?style=for-the-badge&logo=auth0&logoColor=white)
+
+**Frontend & UI**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+**Databases & ORM**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
 **Tools & Platforms**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+</div>
+
+---
+
+## 🏗️ What I Build
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                   MY FULL STACK ARCHITECTURE                    │
+├──────────────────────┬──────────────────────────────────────────┤
+│  🖥️  FRONTEND        │  Next.js · React · Material UI · Tailwind│
+├──────────────────────┼──────────────────────────────────────────┤
+│  ⚙️  BACKEND         │  C# .NET Core · RESTful APIs · Java      │
+├──────────────────────┼──────────────────────────────────────────┤
+│  🔐 AUTH             │  BetterAuth                              │
+├──────────────────────┼──────────────────────────────────────────┤
+│  🗄️  DATABASE        │  MySQL · PostgreSQL · MS SQL Server      │
+├──────────────────────┼──────────────────────────────────────────┤
+│  🔗 ORM              │  Prisma                                  │
+├──────────────────────┼──────────────────────────────────────────┤
+│  🏢 SPECIALTY        │  ERP Systems · Enterprise Applications   │
+└──────────────────────┴──────────────────────────────────────────┘
+```
 
 </div>
 
@@ -70,14 +120,14 @@ public class TejasKarambe {
 
 <div align="center">
 
-| 🏆 Project | 📝 Description | 🔧 Stack | ⭐ Stars |
-|:---:|:---:|:---:|:---:|
-| [**JavaProjects**](https://github.com/TejasKarambe/JavaProjects) | Collection of Java programs & a Bank System | `Java` | ⭐ 4 |
-| [**IMDB Clone**](https://github.com/TejasKarambe/imdb-clone) | A fully functional IMDB clone app | `React` `Tailwind` `Vite` | ⭐ 2 |
-| [**React Todo List**](https://github.com/TejasKarambe/React-TodoList) | A clean and responsive React To-Do app | `React` `JavaScript` | ⭐ 2 |
-| [**Landing Pages**](https://github.com/TejasKarambe/Landing-Pages) | Beautiful & responsive landing page designs | `HTML` `CSS` | ⭐ 2 |
+| 🏆 Project | 📝 Description | 🔧 Stack | ⭐ |
+|:---|:---|:---|:---:|
+| [**JavaProjects**](https://github.com/TejasKarambe/JavaProjects) | Java programs including a Bank Management System | `Java` | ⭐ 4 |
+| [**IMDB Clone**](https://github.com/TejasKarambe/imdb-clone) | Fully functional IMDB clone web app | `React` `Tailwind` `Vite` | ⭐ 2 |
+| [**React Todo List**](https://github.com/TejasKarambe/React-TodoList) | Clean & responsive React To-Do application | `React` `JavaScript` | ⭐ 2 |
+| [**Landing Pages**](https://github.com/TejasKarambe/Landing-Pages) | Beautiful responsive landing page designs | `HTML` `CSS` | ⭐ 2 |
 | [**Tailwind Project**](https://github.com/TejasKarambe/TailwindProject) | UI components built with Tailwind CSS | `Tailwind CSS` | ⭐ 2 |
-| [**JavaHtml**](https://github.com/TejasKarambe/JavaHtml) | Java combined with web frontend | `Java` `HTML` `CSS` | ⭐ 2 |
+| [**JavaHtml**](https://github.com/TejasKarambe/JavaHtml) | Java backend combined with web frontend | `Java` `HTML` `CSS` | ⭐ 2 |
 
 </div>
 
@@ -89,7 +139,7 @@ public class TejasKarambe {
 
 <img src="https://github-readme-stats.vercel.app/api?username=TejasKarambe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TejasKarambe&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TejasKarambe&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
 
 <br/>
 
@@ -121,18 +171,6 @@ public class TejasKarambe {
 
 ---
 
-## 🌐 Let's Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-TejasKarambe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TejasKarambe)
-
-💬 Feel free to reach out — I'm always open to collaborating on interesting projects!
-
-</div>
-
----
-
 ## 💡 Dev Quote of the Day
 
 <div align="center">
@@ -143,9 +181,21 @@ public class TejasKarambe {
 
 ---
 
+## 🌐 Let's Connect
+
 <div align="center">
 
-⭐ **If you find any of my repositories useful, please consider giving them a star — it really helps!** ⭐
+[![GitHub](https://img.shields.io/badge/GitHub-TejasKarambe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TejasKarambe)
+
+💬 Open to collaborations on ERP systems, full-stack web apps, or anything exciting!
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ **If you find my work useful, a star goes a long way — thank you!** ⭐
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 

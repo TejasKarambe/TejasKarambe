@@ -26,8 +26,8 @@ public class TejasKarambe {
 
     String name     = "Tejas Karambe";
     String location = "India 🇮🇳";
-    String[] langs  = {"Java", "JavaScript", "HTML", "CSS"};
-    String[] focus  = {"React.js", "Tailwind CSS", "Java Projects"};
+    String[] langs  = {"JavaScript", "HTML", "CSS", "Java", "C#.net"};
+    String[] focus  = {"React.js", "Tailwind CSS", "Material UI};
     String goal     = "Build awesome things & keep growing 🚀";
 
     String greet() {
